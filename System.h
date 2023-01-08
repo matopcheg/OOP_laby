@@ -9,7 +9,7 @@
 
 class System
 {
-public:
+private:
 	unordered_map<int, Product> _Market;
 	unordered_map<int, User*> _UserBase;
 
