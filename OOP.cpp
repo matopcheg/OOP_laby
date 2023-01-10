@@ -1,5 +1,8 @@
 ﻿#include <iostream>
 #include <list>
+
+#include <vector>
+
 #include "User.h"
 #include "System.h"
 #include "Product.h"
@@ -12,13 +15,13 @@ int main()
 {
 	Product p("Coca Cola light", 144, 15.55, 0.5, forLower);
 	list<Product> pro; pro.push_back(p);
-	
+
 	User u("Mishania", 332, pro);
 	User u2("Data.csv");
 	
 	System s;
 
-	
+
 	s.addUser(u);
 
 
@@ -27,8 +30,8 @@ int main()
 		s.addUser(User("Bagdasia", i, pro));
 	}
 
-	
-	cout <<(s._UserBase.find(55))->second->getPhone();
+
+	cout << (s._UserBase.find(55))->second->getPhone();
 	cout << s.getUserByPhone(33).getPhone();
 
 	cout << "\nData demo\n";
