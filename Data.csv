@@ -1,4 +1,4 @@
-MATBI1,9567823,
-Soap,340,0
-Milk,450,0
-Bread,100,0
+MATBI1,9567823
+Soap,234567,340,0,forLower
+Milk,234569,450,0,forLower
+Bread,234669,100,0,forLower

@@ -15,7 +15,7 @@ int main()
 	
 	User u("Mishania", 332, pro);
 	User u2("Data.csv");
-	cout << u[0];
+	
 	System s;
 
 	
@@ -24,7 +24,7 @@ int main()
 
 	for (int i = 0; i < 100; i++)
 	{
-		s.addUser(User("penis", i, pro));
+		s.addUser(User("Bagdasia", i, pro));
 	}
 
 	
@@ -41,4 +41,10 @@ int main()
 	cout << "Static member demo\n";
 	cout << data.objectCount << "\n";
 	cout << data.objectCount << "\n";
+	cout << "== overloading demo\n";
+	cout << (u == u2);
+	cout << "[] overloading demo\n";
+	cout << u[0];
+	u2.print();
+
 }
